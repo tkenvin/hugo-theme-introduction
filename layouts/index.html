@@ -111,7 +111,7 @@
                 {{ end }}
                 {{ with .Site.Params.email }}
                 <h3 class="subtitle is-3 has-text-centered top-pad">
-                    <a href="mailto:{{ . }}">{{ . }}</a>
+                    <span id="cea">{{ . }}</span>
                 </h3>
                 {{ end }}
                 {{ partial "home/social.html" . }}
